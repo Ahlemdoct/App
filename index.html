@@ -3,23 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download APK</title>
+    <title>تنزيل التطبيق</title>
 </head>
 <body>
-    <h1>Welcome to My Page</h1>
-    <button id="downloadBtn">Download App</button>
+    <button id="downloadBtn">تحميل التطبيق</button>
 
     <script>
-        // Function to handle redirect to APK download link
-        function redirectToDownloadLink() {
-            // Replace 'download_link' with the direct download link of your APK file on GitHub
-            var downloadLink = 'https://github.com/Ahlemdoct/App/blob/a57142f778bc4181b6088c23f20ee1744e19622c/%D8%A7%D9%84%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D9%86%D9%81%D8%B3%D9%8A%D8%A9.apk';
-            // Redirect the user to the download link
-            window.location.href = downloadLink;
-        }
-
-        // Add event listener to the download button
-        document.getElementById('downloadBtn').addEventListener('click', redirectToDownloadLink);
+        document.getElementById("downloadBtn").addEventListener("click", function() {
+            window.location.href = "https://github.com/Ahlemdoct/App/blob/a57142f778bc4181b6088c23f20ee1744e19622c/%D8%A7%D9%84%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D9%86%D9%81%D8%B3%D9%8A%D8%A9.apk";
+        });
     </script>
 </body>
 </html>
